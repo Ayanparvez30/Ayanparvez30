@@ -54,25 +54,30 @@ I'm a Flutter developer working with [@devcenter-dev](https://github.com/devcent
 
 ## Some things I've built
 
-**Agency projects @ [DevCenter.dev](https://github.com/devcenter-dev)** *(private repos)*
-
-| # | Project | Stack | What it does |
-|---|---------|-------|-------------|
-| 01 | **Armorix** | Flutter, Node.js | Automotive service management — dealer services, NFC card management, booking systems, multi-role (Client, Dealer, SuperAdmin, CarDealer) |
-| 02 | **Lotus** | Flutter, Node.js | Client application with dedicated backend service |
-| 03 | **Ashly Admin** | Flutter | Admin panel for content and user management |
-| 04 | **Racqit** | Flutter | Sports application with admin panel |
-| 05 | **Vulcain** | Flutter | Mobile client application |
-
 **Personal projects**
 
 | # | Project | Stack | What it does |
 |---|---------|-------|-------------|
-| 01 | **GymApp** | Flutter | Gym membership management application |
-| 02 | **FoodUI** | Flutter | Food ordering UI template |
-| 03 | **WebBangladesh** | Flutter | Web platform project |
-| 04 | **Competitive Programming** | C++ | Problem solving and algorithmic challenges |
-| 05 | **Starterpack** | JavaScript | Web development starter template |
+| 01 | **PreviewChat-AI** | Node.js, Docker, Flutter, Multi-LLM | Generates full Flutter apps from natural language and serves instant preview URLs |
+| 02 | **iChat** | Flutter, Node.js, Socket.io, MySQL | Real-time messaging platform with AI-powered features |
+| 03 | **Jarvis** | Flutter, Node.js, AI APIs | Personal AI assistant — voice, chat, and task automation |
+| 04 | **PermitSense** | Python, FastAPI, OCR | Intelligent document scanning and permit analysis system |
+| 05 | **Gym NFC** | Flutter, Python, NFC | Gym membership management with NFC card read/write |
+| 06 | **Hairfall Prediction** | Python, TensorFlow, VGG19 | ML-powered hair disease classification from images |
+| 07 | **Crickletter** | Next.js, React | Cricket newsletter marketing site with SSR |
+| 08 | **MediaManager** | Flutter | Image processing, gallery optimization, and media handling |
+| 09 | **KlokBox AI** | Flutter, AI | AI-powered conversational application |
+
+**Agency projects @ [DevCenter.dev](https://github.com/devcenter-dev)** *(private repos)*
+
+| # | Project | Stack | What it does |
+|---|---------|-------|-------------|
+| 01 | **Outspot** | Flutter, Node.js | Full-stack platform — mobile frontend + backend service (largest project, 85MB+ codebase) |
+| 02 | **Lotus** | Flutter, Node.js | Client application with dedicated backend service |
+| 03 | **Armorix** | Flutter, Node.js | Mobile app with backend API integration |
+| 04 | **Racqit** | Flutter | Sports application with admin panel |
+| 05 | **Vulcain** | Flutter | Mobile client application |
+| 06 | **Ashly Admin** | Flutter | Admin panel for content and user management |
 
 ---
 
