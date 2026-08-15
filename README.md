@@ -1,124 +1,67 @@
-<div align="center">
+# Ayan Parvaiz
 
-# Ayan Parvez
+**Flutter Developer & AI Engineer** · Bangladesh · Remote
 
-**Flutter Developer (iOS / Android)**
+I build production Flutter applications — the kind that go through App Store review, take real payments, and stay maintained for years. Mostly mobile, but I ship the web and desktop targets too, and I write the backends they talk to.
 
-Bangladesh
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayan-parvez-2327462a2)
-[![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=flat&logo=freelancer&logoColor=white)](https://www.freelancer.com.bd/u/ayanp22)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/aryanparvaiz.30)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white)](https://mumti-121.web.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ayanparvez30)
-![Visitors](https://komarev.com/ghpvc/?username=Ayanparvez30&color=blue&style=flat)
-
-</div>
+[Portfolio](https://ayan-parvaiz.web.app) · [LinkedIn](www.linkedin.com/in/ayan-parvaiz · [Freelancer](https://www.freelancer.com.bd/u/ayanp22) · ayanparvez30@gmail.com
 
 ---
 
-I'm a Flutter developer working with [@devcenter-dev](https://github.com/devcenter-dev), building mobile apps, integrating backend services, and shipping production-ready applications for both iOS and Android. I've been working with Flutter since its early days. GetX MVC is my go-to architecture. I focus on clean code, pixel-perfect UI, and real-time features like chat and push notifications.
+## Selected work
 
-<details>
-<summary><b>A bit more about me</b></summary>
-<br>
+**OutSpot** — location-based social platform
+One Flutter codebase shipped to five platforms: iOS, Android, Web, macOS and Windows. Real-time chat with moderation, community feeds, gamification, and in-app purchases with server-side receipt validation. Express + Prisma over PostgreSQL, with schedulers and push through APNs and FCM. Passed App Store review on the first submission, with UGC moderation, EULA and privacy labels in place.
 
-- Building production Flutter apps with GetX architecture (MVC pattern)
-- Experienced with Firebase (FCM, Hosting, Auth), REST APIs, and Socket.IO real-time systems
-- Comfortable working with backend teams on Node.js/Express APIs
-- Focused on responsive design with flutter_screenutil and clean state management
-- Currently contributing to multiple projects at DevCenter agency
-- Love exploring new technologies and building things that solve real problems
+**Jarvis** — AI assistant, live on the App Store and Play Store
+Multi-personality AI chat and image generation, shipping continuously since January 2023. Streaming responses, RevenueCat subscriptions with full entitlement handling, and 19 localized languages including RTL. Includes a zero-downtime migration from FCM v1 to v2 that did not break existing subscribers.
 
-</details>
+**Code Horizon** — AI software platform
+Flutter Web front end over a Node backend. Multi-model routing across GPT, Claude and DeepSeek with streaming, plus the part most AI products skip: a credit ledger with plan tiers, usage metering, abuse guards and an admin dashboard. Redis caching, GitHub integration for deployment.
 
----
+**RFID Pallet** — warehouse system on Zebra handhelds
+No official driver existed for the Zebra RFID SDK, so I wrote a custom bridge against the raw byte-level protocol. Tag, store, search and locate, with inventory count mode, barcode fallback and a CSV-exportable audit log. Built for warehouse Wi-Fi that drops mid-aisle, so it captures offline and reconciles on reconnect. Handed over with a requirement-by-requirement traceability matrix; the client's own team took over maintenance on day one.
 
-## Tech stack
+**Armorix** — automotive NFC platform
+NFC vehicle cards, dealer bookings and live maps. One Flutter codebase across three separate surfaces.
 
-| Languages | Frontend & Mobile | Backend & Services | Databases | DevOps & Tools |
-|-----------|------------------|--------------------|-----------|----------------|
-| ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) ![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) |
+**Ashly** — ADA accessibility platform
+Four user roles, with APNs VoIP calling working in production.
 
 ---
 
-## What I work on
+## Personal projects
 
-**Mobile apps** — Flutter is my primary tool. I build multi-role apps with complex navigation, real-time chat (Socket.IO), push notifications (FCM), NFC integrations, and role-based dashboards. GetX MVC is my go-to architecture.
-
-**UI/UX Implementation** — Pixel-perfect responsive layouts using flutter_screenutil. I work with custom design systems, themed components, and adaptive widgets that look great on all screen sizes.
-
-**API Integration** — REST APIs with token-based auth, pagination, real-time updates, and multi-part uploads. I work closely with backend teams to integrate and debug complex flows.
-
----
-
-## Some things I've built
-
-**Personal projects**
-
-| # | Project | Stack | What it does |
-|---|---------|-------|-------------|
-| 01 | **PreviewChat-AI** | Node.js, Docker, Flutter, Multi-LLM | Generates full Flutter apps from natural language and serves instant preview URLs |
-| 02 | **iChat** | Flutter, Node.js, Socket.io, MySQL | Real-time messaging platform with AI-powered features |
-| 03 | **Jarvis** | Flutter, Node.js, AI APIs | Personal AI assistant — voice, chat, and task automation |
-| 04 | **PermitSense** | Python, FastAPI, OCR | Intelligent document scanning and permit analysis system |
-| 05 | **Gym NFC** | Flutter, Python, NFC | Gym membership management with NFC card read/write |
-| 06 | **Hairfall Prediction** | Python, TensorFlow, VGG19 | ML-powered hair disease classification from images |
-| 07 | **Crickletter** | Next.js, React | Cricket newsletter marketing site with SSR |
-| 08 | **MediaManager** | Flutter | Image processing, gallery optimization, and media handling |
-| 09 | **KlokBox AI** | Flutter, AI | AI-powered conversational application |
-
-**Agency projects @ [DevCenter.dev](https://github.com/devcenter-dev)** *(private repos)*
-
-| # | Project | Stack | What it does |
-|---|---------|-------|-------------|
-| 01 | **Outspot** | Flutter, Node.js | Full-stack platform — mobile frontend + backend service (largest project, 85MB+ codebase) |
-| 02 | **Lotus** | Flutter, Node.js | Client application with dedicated backend service |
-| 03 | **Armorix** | Flutter, Node.js | Mobile app with backend API integration |
-| 04 | **Racqit** | Flutter | Sports application with admin panel |
-| 05 | **Vulcain** | Flutter | Mobile client application |
-| 06 | **Ashly Admin** | Flutter | Admin panel for content and user management |
+| Project | Stack | What it does |
+|---|---|---|
+| **PreviewChat-AI** | Node.js, Docker, Flutter, multi-LLM | Generates Flutter apps from natural language and serves instant preview URLs |
+| **PermitSense** | Python, FastAPI, OCR | Document scanning and permit analysis |
+| **Hairfall Prediction** | Python, TensorFlow, VGG19 | Image classification for hair and scalp conditions |
+| **iChat** | Flutter, Node.js, Socket.IO, MySQL | Real-time messaging with AI features |
+| **Gym NFC** | Flutter, Python, NFC | Gym membership management with NFC read/write |
+| **Crickletter** | Next.js, React | Cricket newsletter site with SSR |
 
 ---
 
-## GitHub overview
+## Tech
 
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Ayanparvez30&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)
-
-</div>
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayanparvez30&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true)
-
-</div>
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayanparvez30&layout=compact&theme=dark&hide_border=true&langs_count=8)
-
-</div>
-
-> Above stats auto-update and include private contributions.
-
-| | |
-|---|---|
-| **Total Contributions** | 1,500+ |
-| **Mobile Apps Shipped** | 5+ production Flutter apps |
-| **Client Projects** | 5+ active through DevCenter agency |
-| **Active Since** | 2023 |
-| **Organization** | [@devcenter-dev](https://github.com/devcenter-dev) |
+**Mobile** — Flutter, Dart, GetX (MVC), flutter_screenutil, platform channels, native SDK integration
+**Web** — React, TypeScript, Next.js, Tailwind
+**Backend** — Node.js, Express, NestJS, Prisma, REST, Socket.IO
+**Data** — PostgreSQL, MySQL, Firebase (Auth, Firestore, FCM), Redis
+**AI** — OpenAI, Claude, DeepSeek, streaming and multi-model routing
+**Infra** — Docker, Kubernetes, Git, CI/CD, App Store Connect, Play Console
 
 ---
 
-<div align="center">
+## What I'm good at
 
-**Building things that work, one commit at a time.**
+**Shipping to stores, and staying there.** Release, review, compliance and the long maintenance tail — privacy labels, subscription lifecycles, OS updates that break things every six months.
 
-**Got a project in mind? Let's talk.**
+**Native integration from Flutter.** When a vendor SDK has no Flutter package, I write the bridge.
 
-[![Freelancer](https://img.shields.io/badge/HIRE_ME_ON_FREELANCER-29B2FE?style=for-the-badge&logo=freelancer&logoColor=white)](https://www.freelancer.com.bd/u/ayanp22)
+**The unglamorous half of AI products.** Credit ledgers, usage metering, abuse guards and admin tooling — the machinery that makes an AI feature survivable in production.
 
-</div>
+---
+
+Open to Flutter and cross-platform work. Reach me at **ayanparvez30@gmail.com**.
